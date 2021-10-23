@@ -1,0 +1,84 @@
+
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 45px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 4px;
+}
+
+nav ul li{
+    padding: 0px 5px;
+}
+
+.brand img{
+    width: 44px;
+    padding: 0px 5px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.container{
+    min-height: 72vh;
+    display: flex;
+    width: 70%;
+    margin: 25px auto;
+    padding: 34px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Varela Round', sans-serif;
+    background-image: url('bg.jpg');
+
+}
+
+
+
+
+.bottom{
+    position: stic1;
+    height: 130px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+#myprogressbar{
+    width: 150vh;
+    
+}
+
+.icon{
+    height: 44px;
+    margin: 15px 0px
+    
+}
+.icon i{
+    padding: 0px 5px;
+}
